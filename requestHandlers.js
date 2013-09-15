@@ -1,7 +1,5 @@
 #!usr/bin/env node
 
-var exec=require("child_process").exec;
-
 function start() {
     console.log("Request handler 'start' was called");
     var content = "empty";
