@@ -8,6 +8,5 @@ function route(handle,pathname) {
        console.log("No request handler found for" + pathname);
        return "404 Not Found";
   }
-    
 }
 exports.route=route;
